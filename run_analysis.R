@@ -2,11 +2,12 @@
 #Course Project
 #Acknowledgement: Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012
 
-#0. Generating directories for data and output. This step (while technically unnecessary) acts as a push button for creating
+#Generating directories for data and output. This step (while technically unnecessary) acts as a push button for creating
 #the directories (neatly) - which we'll need later on. This will create files in your current wd.
 
 rm(list = ls())                                                                                         #clear environment
 library(data.table)
+library(dplyr)
 if(!file.exists("./courseproject")){dir.create("./courseproject")}                                      #creates course project folder in current working directory
 if(getwd() != "./courseproject"){setwd("./courseproject")}                                              #sets working directory to courseproject folder
 if(!file.exists("./output")){dir.create("./output")}                                                    #creates output folder for tidy data
