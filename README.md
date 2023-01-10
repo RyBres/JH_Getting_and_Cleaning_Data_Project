@@ -9,4 +9,4 @@ This is the README.md file for the final course project for Johns Hopkins "Getti
 5. A second tidy dataset "tidydatafinal" is created with the average of each variable for each activity and each subject.
 6. "tidydatafinal" is then written to a .txt file as "tidydata.txt" in the output directory.
 
-Note that the final dataset "tidydata.txt" is contained in the courseproject/output/ folder in this repository.
+Note that the final dataset "tidydata.txt" is contained in the courseproject/output folder in this repository.
